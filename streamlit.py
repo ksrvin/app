@@ -13,7 +13,7 @@ import streamlit as st
 # In[2]:
 
 
-pickle_in = open(r'C:\Users\srkar\GreatLearning\Self\app\regressor.pkl','rb')
+pickle_in = open('regressor.pkl','rb')
 regressor = pickle.load(pickle_in)
 
 
