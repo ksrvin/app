@@ -15,7 +15,7 @@ import xgboost
 # In[2]:
 
 
-pickle_in = open(r"C:\Users\srkar\GreatLearning\Self\app\model.pkl",'rb')
+pickle_in = open("model.pkl",'rb')
 model = pickle.load(pickle_in)
 #model.fit("C:\\Users\\srkar\\GreatLearning\\Self\\app\\data\\X_train.csv","C:\\Users\\srkar\\GreatLearning\\Self\\app\\data\\y_train.csv")
 
